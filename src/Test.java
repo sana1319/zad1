@@ -4,6 +4,7 @@ class Moj1Exception extends Exception {}
 
     public static void main(String[] args) {
         int n = 0, p = 0;
+        int k;
 
         try {
             n = Integer.parseInt( args[0] );
